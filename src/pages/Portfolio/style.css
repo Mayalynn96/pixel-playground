@@ -1,0 +1,11 @@
+.portfolio h1 {
+    font-family: 'VT323', monospace;
+    font-weight: lighter;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.portfolio p {
+    color: black;
+}

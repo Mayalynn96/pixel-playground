@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutMe from "./pages/AboutMe";
+import Portfolio from "./pages/Portfolio";
 import './App.css';
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
       <div className="body">
         <Header setCurrentTab={setCurrentTab}/>
         <main>
-        
+          <Portfolio/>
         </main>
         <Footer/>
       </div>

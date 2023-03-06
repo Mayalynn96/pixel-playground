@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import FirstPicture from './assets/laptop.png'
-import ProfilePicture from './assets/laptopWithPicture.png'
-import GithubLogo from './assets/github.png'
-import LinkedinLogo from './assets/linkedin.png'
+import FirstPicture from '../../assets/icons/laptop.png'
+import ProfilePicture from '../../assets/icons/laptopWithPicture.png'
+import GithubLogo from '../../assets/icons/github.png'
+import LinkedinLogo from '../../assets/icons/linkedin.png'
 import './style.css'
 
 const AboutMe = () => {
@@ -41,16 +41,16 @@ const AboutMe = () => {
                         <p>In 2019, after spending 3 months traveling Europe and the Philippines, I moved back to Washington. Shorty after, the pandemic forced me into unemployement in order to take care of family. After things calmed down I moved to Seattle for a contractig job where I got first hand experience with computer hardware, screen repairs and some other IT work.</p>
                         <p>After learning the basics of html, css and javascript through free online classes and apps, I realized it was more than just a hobby. In 2022 I signed up for the University Of Washigton Web Developper Bootcamp. I was able to learn all the skills in depth and have come further than I imagened in this short time. </p>
                         <p>Vitit my portfolio section to see all my projects. You can send me an email under the contact me tab. And if you'd like to know more about my skills, click the resume tab or go to my GitHub or Linked in below</p>
-                        <a href='https://github.com/Mayalynn96' target='_blank'>
-                        <img src={GithubLogo} className="logo"/>
+                        <a href='https://github.com/Mayalynn96' target='_blank' rel="noreferrer">
+                        <img src={GithubLogo} className="logo" alt='Github Logo'/>
                         </a>
-                        <a href='https://www.linkedin.com/in/maya-lynn-cohen-49845a204' target='_blank'>
-                        <img src={LinkedinLogo} className="logo"/><br></br>
+                        <a href='https://www.linkedin.com/in/maya-lynn-cohen-49845a204' target='_blank' rel="noreferrer">
+                        <img src={LinkedinLogo} className="logo" alt='LinkedIn Logo'/><br></br>
                         </a>
                         <button onClick={handleReadmMore}>Go back</button>
                     </div>
                     <div className='rightSide'>
-                        <img src={ProfilePicture} alt="Laptop with Profile picture" />
+                        <img src={ProfilePicture} alt="Laptop with Profile" />
                     </div>
                 </div>
             )}
