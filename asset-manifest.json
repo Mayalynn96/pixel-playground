@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pixel-playground/static/css/main.02964aa3.css",
+    "main.js": "/pixel-playground/static/js/main.9b358cae.js",
+    "static/media/laptop.png": "/pixel-playground/static/media/laptop.64a6ad4cfa29502f884e.png",
+    "static/media/laptopWithPicture.png": "/pixel-playground/static/media/laptopWithPicture.d192298c841858e8838f.png",
+    "static/media/github.png": "/pixel-playground/static/media/github.206f325495739094b579.png",
+    "index.html": "/pixel-playground/index.html",
+    "main.02964aa3.css.map": "/pixel-playground/static/css/main.02964aa3.css.map",
+    "main.9b358cae.js.map": "/pixel-playground/static/js/main.9b358cae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02964aa3.css",
+    "static/js/main.9b358cae.js"
+  ]
+}
