@@ -7,15 +7,26 @@
 }
 
 body {
-    background-color: #7d3345;
-    color: #fdc8e2;
+    background-image: linear-gradient(to bottom, #091f2a, #0f3243);
+    color: #fc9ec0;
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 main {
+    padding: 20px;
     background-color: #fdc8e2;
+    color: #602238;
     min-height: 75vh;
     margin: 0px 50px;
     border-radius: 15px;
-    box-shadow: 5px 10px 10px 5px #081e2961;
+    box-shadow: 10px 15px 25px 15px #1c1c1cb0;
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        padding: 5vw;
+        min-height: 75vh;
+        margin: 0px 5vw;
+    }
 }

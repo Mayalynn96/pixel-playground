@@ -1,0 +1,94 @@
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMe .innerDiv {
+    display: flex;
+    width: 100%;
+}
+
+.aboutMe h1 {
+    font-family: 'VT323', monospace;
+    font-weight: lighter;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.aboutMe p {
+    text-align: justify;
+    margin: 10px;
+}
+
+.aboutMe ul {
+    margin: 10px 30px;
+}
+
+.aboutMe .leftSide {
+    width: 50%;
+}
+
+.aboutMe img {
+    height: 40vw;
+}
+
+.aboutMe .rightSide {
+    width: 50%;
+    text-align: center;
+}
+
+.aboutMe button {
+    padding: 10px;
+    background-color: #602238;
+    border: none;
+    border-radius: 5px;
+    color: #fdc8e2;
+    cursor: pointer;
+    font-family: monospace;
+    margin: 10px;
+}
+
+.aboutMe button:hover {
+    background-color: #fdc8e2;
+    color: #602238;
+    box-shadow: 0px 0px 2px 2px #602238;
+}
+
+.aboutMe button:active {
+    background-color: #9d4a6290;
+    color: #fdc8e2;
+}
+
+.aboutMe .logo {
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutMe .innerDiv {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aboutMe .rightSide,
+    .aboutMe .leftSide {
+        width: 100%;
+    }
+
+    .aboutMe img {
+        height: 60vw;
+    }
+
+    .aboutMe h1 {
+        font-size: 10vw;
+        margin: 10px;
+    }
+
+    .aboutMe p{
+        font-size: 18px;
+    }
+    .aboutMe li {
+        font-size: 12px;
+    }
+}

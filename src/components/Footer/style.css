@@ -1,17 +1,6 @@
 .footer {
     display: flex;
     margin: 50px;
-    bottom: 0;
-    position: fixed;
-}
-
-.footer div {
-    position: inherit;
-    right: 50px;
-}
-
-.footer a {
-    color: #fdc8e2;
-    margin: 10px 50px;
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
