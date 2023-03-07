@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
+import ContactMe from "./pages/ContactMe";
 import './App.css';
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
       <div className="body">
         <Header setCurrentTab={setCurrentTab}/>
         <main>
-        
+        <ContactMe/>
         </main>
         <Footer/>
       </div>

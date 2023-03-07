@@ -1,0 +1,81 @@
+.ContactMe h1 {
+    font-family: 'VT323', monospace;
+    font-weight: lighter;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.ContactMe form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+
+}
+
+#nameDiv, #emailDiv {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+#nameDiv input, #emailDiv input {
+    padding: 5px;
+    margin: 5px;
+}
+
+.ContactMe label {
+    margin: 5px;
+}
+
+#messageDiv {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+#messageDiv textarea {
+    height: 20vh;
+    padding: 5px;
+    margin: 5px;
+}
+
+#nameDiv input, #emailDiv input, #messageDiv textarea {
+    font-family: monospace;
+    background-color: #6022385f;
+    border: none;
+}
+
+#nameDiv input::placeholder, #emailDiv input::placeholder, #messageDiv textarea::placeholder {
+    color: #fdc8e2;
+}
+
+.ContactMe button {
+    padding: 10px;
+    background-color: #602238;
+    border: none;
+    border-radius: 5px;
+    color: #fdc8e2;
+    cursor: pointer;
+    font-family: monospace;
+    margin: 10px auto;
+    width: 100px;
+}
+
+.ContactMe button:hover {
+    background-color: #fdc8e2;
+    color: #602238;
+    box-shadow: 0px 0px 2px 2px #602238;
+}
+
+.ContactMe button:active {
+    background-color: #9d4a6290;
+    color: #fdc8e2;
+}
+
+#alertText {
+    width: 100%;
+    margin: 5px;
+    font-style: italic;
+}
