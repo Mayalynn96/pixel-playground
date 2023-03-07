@@ -28,7 +28,7 @@ The user is first brought to the "about me" section. When the "read more" button
 
 ## License 🔑
 
-This project is covered under the Apache 2.0 license.
+This project is covered under the MIT license.
 
 ## Credit
 

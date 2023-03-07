@@ -58,20 +58,22 @@ const Portfolio = () => {
             description: "Solo project: A weather tracking website made with Html, Css and JavaScript. Using a wearher API."
         },
         {
-            url:"https://mayalynn96.github.io/alt-pop-rock/",
-            repo:"https://github.com/Mayalynn96/alt-pop-rock",
+            url: "https://mayalynn96.github.io/alt-pop-rock/",
+            repo: "https://github.com/Mayalynn96/alt-pop-rock",
             mainLanguage: "JavaScript",
             siteName: "Alt Pop Rock",
-            png:AltPopRockPNG,
-            gif:AltPopRockGIF,
-            description:"Solo project: A timed quiz about music made with Html, Css and JavaScript."
+            png: AltPopRockPNG,
+            gif: AltPopRockGIF,
+            description: "Solo project: A timed quiz about music made with Html, Css and JavaScript."
         }
     ]
 
     return (
         <div className='portfolio'>
             <h1>Portfolio</h1>
-            <Project projects={projects} />
+            <div className='allProjects'>
+                {projects.map((project, index) => <Project project={project} index={index} key={index}/>)}
+            </div>
         </div>
     )
 }

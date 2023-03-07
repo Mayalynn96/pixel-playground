@@ -5,6 +5,7 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import ContactMe from "./pages/ContactMe";
 import './App.css';
+import Resume from "./pages/Resume";
 
 function App() {
   const [currentTab, setCurrentTab] = useState('aboutMe')
@@ -45,7 +46,7 @@ function App() {
       <div className="body">
         <Header setCurrentTab={setCurrentTab}/>
         <main>
-        
+        <Resume/>
         </main>
         <Footer/>
       </div>

@@ -1,0 +1,33 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resume h1 {
+    font-family: 'VT323', monospace;
+    font-weight: lighter;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.resume ul {
+    margin: 10px 30px;
+}
+
+.resume li {
+    padding: 5px;
+}
+
+#resumeLists {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #resumeLists {
+        flex-direction: column;
+    }
+}

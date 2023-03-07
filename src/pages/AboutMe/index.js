@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState} from 'react'
 import FirstPicture from '../../assets/icons/laptop.png'
 import ProfilePicture from '../../assets/icons/laptopWithPicture.png'
 import GithubLogo from '../../assets/icons/github.png'
@@ -7,12 +7,10 @@ import './style.css'
 
 const AboutMe = () => {
     const [isClicked, setisClicked] = useState(true)
-    const scrollToRef = useRef();
 
     const handleReadmMore = (e) => {
         e.preventDefault()
         setisClicked(!isClicked)
-        scrollToRef.scrollIntoView()
     }
 
     return (
@@ -51,7 +49,7 @@ const AboutMe = () => {
                         </a>
                         <button onClick={handleReadmMore}>Go back</button>
                     </div>
-                    <div ref={scrollToRef} className='rightSide'>
+                    <div className='rightSide'>
                         <img src={ProfilePicture} alt="Laptop with Profile" />
                     </div>
                 </div>
