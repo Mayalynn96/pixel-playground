@@ -22,13 +22,17 @@ const ContactMe = () => {
         e.preventDefault()
         // eslint-disable-next-line
         if(emailInput.match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/)){
-            setAlertText('Thank you for trying to send me a message! Saddly this functionality is not yet set into place...')
+            setAlertText('Thank you for sending me a message!')
         } else if(nameInput.length < 1 || emailInput  < 1|| messageInput  < 1) {
             setAlertText('All fields must be filled out!')
             // eslint-disable-next-line
         } else if(!emailInput.match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/)) {
             setAlertText('Please enter a valid email address!')
         } 
+
+        setTimeout(() => {
+            setAlertText('')
+        }, 5000)
     }
 
   return (

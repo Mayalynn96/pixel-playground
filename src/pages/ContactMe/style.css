@@ -78,4 +78,15 @@
     width: 100%;
     margin: 5px;
     font-style: italic;
+    height: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .ContactMe form {
+        width: 100%;
+    }
+
+    #alertText {
+        height: 25px;
+    }
 }
