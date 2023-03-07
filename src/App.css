@@ -17,16 +17,17 @@ main {
     padding: 20px;
     background-color: #fdc8e2;
     color: #602238;
-    min-height: 75vh;
+    height: 70vh;
     margin: 0px 50px;
     border-radius: 15px;
     box-shadow: 10px 15px 25px 15px #1c1c1cb0;
+    overflow: scroll;
 }
 
 @media screen and (max-width: 1000px) {
     main {
         padding: 5vw;
-        min-height: 75vh;
+        height: 65vh;
         margin: 0px 5vw;
     }
 }

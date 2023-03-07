@@ -15,7 +15,7 @@ const Project = (props) => {
                 }
                 return (
                     <div key={index} className={side}>
-                        <img className="projectImg" src={project.png} alt={project.siteName}/>
+                        <img className="projectImg" src={project.gif} alt={project.siteName}/>
                         <div className='info'>
                             <h2>{project.siteName}</h2>
                             <h3>{project.mainLanguage}</h3>
