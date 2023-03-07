@@ -1,11 +1,13 @@
 import React from 'react'
 import './style.css'
+import MayaLynnCohenResume from './MayaLynnCohenResume.pdf'
 
 const Resume = () => {
 
     return (
         <div className='resume'>
             <h1>Resume</h1>
+            <a href={MayaLynnCohenResume} download="MayaLynnCohenResume.pdf">Download</a>
             <div id='resumeLists'>
             <div>
             <h2>Coding skills</h2>
@@ -16,7 +18,7 @@ const Resume = () => {
                 <li>Bootstrap and other frameworks</li>
                 <li>MySql and Sequelize</li>
                 <li>MongoDB and Mongoose</li>
-                <li>Express server settup</li>
+                <li>Express server setup</li>
                 <li>Handlebars</li>
                 <li>React</li>
             </ul>
@@ -27,7 +29,7 @@ const Resume = () => {
                 <li>Problem Solving</li>
                 <li>Small Project Management</li>
                 <li>Attention to detail</li>
-                <li>Knoledge Seeking</li>
+                <li>Knowledge Seeking</li>
                 <li>Positive Thinking</li>
                 <li>High interest and understanding of Math</li>
                 <li>Persistence</li>
