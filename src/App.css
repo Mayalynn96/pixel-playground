@@ -17,17 +17,45 @@ main {
     padding: 20px;
     background-color: #fdc8e2;
     color: #602238;
-    height: 70vh;
+    height: 75vh;
     margin: 0px 50px;
     border-radius: 15px;
     box-shadow: 10px 15px 25px 15px #1c1c1cb0;
     overflow: scroll;
+    padding: 50px;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fdc8e2;
+    border-radius: 15px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6022386a;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: #fdc8e2;
+    border-radius: 0px 0px 15px 0px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #602238b0;
+  }
 
 @media screen and (max-width: 1000px) {
     main {
         padding: 5vw;
-        height: 65vh;
+        
         margin: 0px 5vw;
     }
 }

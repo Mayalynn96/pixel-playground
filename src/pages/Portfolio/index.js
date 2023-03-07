@@ -4,11 +4,41 @@ import WeatherAppGIF from './assets/weatherHereAndThere.gif'
 import AltPopRockPNG from './assets/altPopRock.png'
 import AltPopRockGIF from './assets/altPopRock.gif'
 import TheHangmanGame from './assets/theHangmanGame.gif'
+import AnomaDramaLlama from './assets/anomaDramaLlama.gif'
+import DontWakeUp from './assets/dontWakeUp.gif'
+import LifeIsShort from './assets/lifeIsShort.gif'
 import './style.css'
 import Project from '../../components/Project'
 
 const Portfolio = () => {
     const projects = [
+        {
+            url: "https://claricetran.github.io/dont-wake-up/mainGame.html",
+            repo: "https://github.com/claricetran/dont-wake-up",
+            mainLanguage: "JavaScript",
+            siteName: "Don't Wake Up",
+            png: DontWakeUp,
+            gif: DontWakeUp,
+            description: "Group project: A story based RPG game in which we traverse to a players dream and follow their quest to find their lost pet pig."
+        },
+        {
+            url: "https://mayalynn96.github.io/lifeIsShort/",
+            repo: "https://github.com/Mayalynn96/lifeIsShort",
+            mainLanguage: "REACT",
+            siteName: "Life is Short",
+            png: LifeIsShort,
+            gif: LifeIsShort,
+            description: "Solo project: A localstorage based bucketlist tracker."
+        },
+        {
+            url: "https://anomallama.herokuapp.com",
+            repo: "https://github.com/alexh3422/Anoma_Drama_Llama",
+            mainLanguage: "JavaScript, SQL and Handlebars",
+            siteName: "Anoma Drama Llama",
+            png: AnomaDramaLlama,
+            gif: AnomaDramaLlama,
+            description: "Group project: A mood tracker and an online journal with social media and virtual pet features."
+        },
         {
             url: "https://mayalynn96.github.io/the-hangman-game/",
             repo: "https://github.com/Mayalynn96/the-hangman-game",

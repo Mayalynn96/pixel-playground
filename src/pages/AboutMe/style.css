@@ -29,7 +29,7 @@
 }
 
 .aboutMe img {
-    height: 40vw;
+    height: 30vw;
 }
 
 .aboutMe .rightSide {
@@ -67,7 +67,7 @@
 
 @media screen and (max-width: 1000px) {
     .aboutMe .innerDiv {
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
     }
 
@@ -89,6 +89,6 @@
         font-size: 18px;
     }
     .aboutMe li {
-        font-size: 12px;
+        font-size: 14px;
     }
 }

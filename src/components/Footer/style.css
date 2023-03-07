@@ -1,7 +1,7 @@
 .footer {
     display: flex;
-    margin: 50px;
     display: flex;
     justify-content: center;
-    height: 3vh;
+    height: 5vh;
+    align-items: center;
 }

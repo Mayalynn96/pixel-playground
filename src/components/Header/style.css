@@ -1,8 +1,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 15px 50px 25px 50px;
-    height: 15vh;
+    padding: 15px 50px 25px 50px;
+    height: 20vh;
 }
 
 .header h1 {
@@ -38,8 +38,9 @@
 
 @media screen and (max-width: 1000px) {
     .header {
+        padding: 5px;
         flex-direction: column;
-        margin: 5vw;
+        margin: 0vw 5vw;
     }
     .header h1 {
         font-size: 10vw;
@@ -49,10 +50,9 @@
     }
     .header h3 {
         font-size: 3vw;
-        padding: 3px;
     }
     .navBar {
         width: 100%;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 }
