@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/pixel-playground/static/css/main.02964aa3.css",
-    "main.js": "/pixel-playground/static/js/main.9b358cae.js",
+    "main.css": "/pixel-playground/static/css/main.03866026.css",
+    "main.js": "/pixel-playground/static/js/main.b0333537.js",
+    "static/media/altPopRock.png": "/pixel-playground/static/media/altPopRock.a2081561ab04515ad1fc.png",
+    "static/media/weatherHereAndThere.gif": "/pixel-playground/static/media/weatherHereAndThere.1f67ab9fc8f64e68e8c7.gif",
     "static/media/laptop.png": "/pixel-playground/static/media/laptop.64a6ad4cfa29502f884e.png",
     "static/media/laptopWithPicture.png": "/pixel-playground/static/media/laptopWithPicture.d192298c841858e8838f.png",
+    "static/media/weatherHereAndThere.png": "/pixel-playground/static/media/weatherHereAndThere.5f652dfe38717e80921e.png",
+    "static/media/theHangmanGame.gif": "/pixel-playground/static/media/theHangmanGame.a699ebb838e70b5c2c54.gif",
+    "static/media/altPopRock.gif": "/pixel-playground/static/media/altPopRock.9ad8771a4cb830ff42f9.gif",
+    "static/media/web.png": "/pixel-playground/static/media/web.0ca968db3eb69ba3816d.png",
     "static/media/github.png": "/pixel-playground/static/media/github.206f325495739094b579.png",
     "index.html": "/pixel-playground/index.html",
-    "main.02964aa3.css.map": "/pixel-playground/static/css/main.02964aa3.css.map",
-    "main.9b358cae.js.map": "/pixel-playground/static/js/main.9b358cae.js.map"
+    "main.03866026.css.map": "/pixel-playground/static/css/main.03866026.css.map",
+    "main.b0333537.js.map": "/pixel-playground/static/js/main.b0333537.js.map"
   },
   "entrypoints": [
-    "static/css/main.02964aa3.css",
-    "static/js/main.9b358cae.js"
+    "static/css/main.03866026.css",
+    "static/js/main.b0333537.js"
   ]
 }
