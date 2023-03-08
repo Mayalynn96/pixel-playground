@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pixel-playground/static/css/main.8ea7a738.css",
-    "main.js": "/pixel-playground/static/js/main.9769e5cf.js",
+    "main.css": "/pixel-playground/static/css/main.20684d11.css",
+    "main.js": "/pixel-playground/static/js/main.09acff04.js",
     "static/media/dontWakeUp.gif": "/pixel-playground/static/media/dontWakeUp.f2cd2f66d7749db54ffb.gif",
     "static/media/anomaDramaLlama.gif": "/pixel-playground/static/media/anomaDramaLlama.5499e5fc89dfdad0a9a5.gif",
     "static/media/altPopRock.png": "/pixel-playground/static/media/altPopRock.a2081561ab04515ad1fc.png",
@@ -16,11 +16,11 @@
     "static/media/web.png": "/pixel-playground/static/media/web.0ca968db3eb69ba3816d.png",
     "static/media/github.png": "/pixel-playground/static/media/github.206f325495739094b579.png",
     "index.html": "/pixel-playground/index.html",
-    "main.8ea7a738.css.map": "/pixel-playground/static/css/main.8ea7a738.css.map",
-    "main.9769e5cf.js.map": "/pixel-playground/static/js/main.9769e5cf.js.map"
+    "main.20684d11.css.map": "/pixel-playground/static/css/main.20684d11.css.map",
+    "main.09acff04.js.map": "/pixel-playground/static/js/main.09acff04.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ea7a738.css",
-    "static/js/main.9769e5cf.js"
+    "static/css/main.20684d11.css",
+    "static/js/main.09acff04.js"
   ]
 }
