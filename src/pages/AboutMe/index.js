@@ -8,15 +8,19 @@ import './style.css'
 const AboutMe = () => {
     const [isClicked, setisClicked] = useState(true)
 
-    const handleReadmMore = (e) => {
+    const handleReadMore = (e) => {
         e.preventDefault()
         setisClicked(!isClicked)
+        window.location.href = '#topImage'
     }
 
     return (
         <div className='aboutMe'>
             {isClicked ? (
                 <div className='innerDiv'>
+                    <div className='rightSide'>
+                        <img id="topImage" src={FirstPicture} alt="Laptop" />
+                    </div>
                     <div className='leftSide'>
                         <h1>About Me</h1>
                         <p>My name is Maya Lynn Cohen and I love to code! I was lucky enough to grow up in Europe where I was able to learn a lot about proper work etiquette through buisness school. But a few years after moving back to the US, I decided it was time fo a change and started my Web Developper journey!</p>
@@ -27,14 +31,15 @@ const AboutMe = () => {
                             <li>I live for problem solving</li>
                             <li>Flexible to change</li>
                         </ul>
-                        <button onClick={handleReadmMore}>Read More</button>
-                    </div>
-                    <div className='rightSide'>
-                        <img src={FirstPicture} alt="Laptop" />
+                       <button onClick={handleReadMore}>Read More</button>
+                       
                     </div>
                 </div>
             ) : (
                 <div className='innerDiv'>
+                    <div className='rightSide'>
+                        <img id="topImage" src={ProfilePicture} alt="Laptop with Profile" />
+                    </div>
                     <div className='leftSide'>
                         <h1>More About Me</h1>
                         <p>I was born in Washington State but shortly after my 3rd birthday my family and I moved to Switzerland. I grew up speaking English, Swiss German and French. After High School I spend 3 years in business school and a 4th year as an administrative assistant. It was during this time that I first discovered my interest in coding on the side of school and work.</p>
@@ -47,10 +52,7 @@ const AboutMe = () => {
                         <a href='https://www.linkedin.com/in/maya-lynn-cohen-49845a204' target='_blank' rel="noreferrer">
                         <img src={LinkedinLogo} className="logo" alt='LinkedIn Logo'/><br></br>
                         </a>
-                        <button onClick={handleReadmMore}>Go back</button>
-                    </div>
-                    <div className='rightSide'>
-                        <img src={ProfilePicture} alt="Laptop with Profile" />
+                        <button href='#topImage' onClick={handleReadMore}>Go back</button>
                     </div>
                 </div>
             )}

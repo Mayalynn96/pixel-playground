@@ -9,6 +9,7 @@
     font-family: 'VT323', monospace;
     font-weight: lighter;
     font-size: 80px;
+    white-space: nowrap;
 }
 
 .navBar {

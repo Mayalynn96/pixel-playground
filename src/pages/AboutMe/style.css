@@ -67,7 +67,7 @@
 
 @media screen and (max-width: 1000px) {
     .aboutMe .innerDiv {
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: 100%;
     }
 
@@ -78,6 +78,10 @@
 
     .aboutMe img {
         height: 60vw;
+    }
+
+    #topImage {
+        scroll-margin-top: 100px;
     }
 
     .aboutMe h1 {
