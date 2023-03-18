@@ -7,11 +7,21 @@ import TheHangmanGame from './assets/theHangmanGame.gif'
 import AnomaDramaLlama from './assets/anomaDramaLlama.gif'
 import DontWakeUp from './assets/dontWakeUp.gif'
 import LifeIsShort from './assets/lifeIsShort.gif'
+import GamerPad from './assets/GamerPad.gif'
 import './style.css'
 import Project from '../../components/Project'
 
 const Portfolio = () => {
     const projects = [
+        {
+            url: "https://gamerpad.herokuapp.com/",
+            repo: "https://github.com/maximusDecimalusMeridius/gamerPad-frontend",
+            mainLanguage: "REACT",
+            siteName: "GamerPad",
+            png: GamerPad,
+            gif: GamerPad,
+            description: "Group Project: a social media platform designed by gamers for gamers, where the community can find friends, see all their games and acocunts, and leave detailed notes about their adventures for themselves or their friends."
+        },
         {
             url: "https://claricetran.github.io/dont-wake-up/mainGame.html",
             repo: "https://github.com/claricetran/dont-wake-up",
