@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pixel-playground/static/css/main.20684d11.css",
-    "main.js": "/pixel-playground/static/js/main.f2aba6de.js",
+    "main.js": "/pixel-playground/static/js/main.ee16b7f1.js",
     "static/media/dontWakeUp.gif": "/pixel-playground/static/media/dontWakeUp.f2cd2f66d7749db54ffb.gif",
     "static/media/anomaDramaLlama.gif": "/pixel-playground/static/media/anomaDramaLlama.5499e5fc89dfdad0a9a5.gif",
     "static/media/GamerPad.gif": "/pixel-playground/static/media/GamerPad.8f91d9fb57208f781477.gif",
@@ -13,15 +13,15 @@
     "static/media/theHangmanGame.gif": "/pixel-playground/static/media/theHangmanGame.a699ebb838e70b5c2c54.gif",
     "static/media/lifeIsShort.gif": "/pixel-playground/static/media/lifeIsShort.c4915469fa4b2e0f7b80.gif",
     "static/media/altPopRock.gif": "/pixel-playground/static/media/altPopRock.9ad8771a4cb830ff42f9.gif",
-    "static/media/MayaLynnCohenResume.pdf": "/pixel-playground/static/media/MayaLynnCohenResume.2c3b84829af58f67abb3.pdf",
+    "static/media/MayaLynnCohenResume2023.pdf": "/pixel-playground/static/media/MayaLynnCohenResume2023.236347ca3b36e7f840c3.pdf",
     "static/media/web.png": "/pixel-playground/static/media/web.0ca968db3eb69ba3816d.png",
     "static/media/github.png": "/pixel-playground/static/media/github.206f325495739094b579.png",
     "index.html": "/pixel-playground/index.html",
     "main.20684d11.css.map": "/pixel-playground/static/css/main.20684d11.css.map",
-    "main.f2aba6de.js.map": "/pixel-playground/static/js/main.f2aba6de.js.map"
+    "main.ee16b7f1.js.map": "/pixel-playground/static/js/main.ee16b7f1.js.map"
   },
   "entrypoints": [
     "static/css/main.20684d11.css",
-    "static/js/main.f2aba6de.js"
+    "static/js/main.ee16b7f1.js"
   ]
 }
