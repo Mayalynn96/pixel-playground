@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import MayaLynnCohenResume from './MayaLynnCohenResume.pdf'
+import MayaLynnCohenResume from './MayaLynnCohenResume2023.pdf'
 
 const Resume = () => {
 

@@ -27,7 +27,7 @@ const AboutMe = () => {
                         <p>Some pointers about me:</p>
                         <ul>
                             <li>Very outgoing and open to learn</li>
-                            <li>love working in teams but great on my own</li>
+                            <li>Goal oriented</li>
                             <li>I live for problem solving</li>
                             <li>Flexible to change</li>
                         </ul>

@@ -41,7 +41,7 @@ const Portfolio = () => {
             description: "Solo project: A localstorage based bucketlist tracker."
         },
         {
-            url: "https://anomallama.herokuapp.com",
+            url: "https://anoma-drama-llama.herokuapp.com/",
             repo: "https://github.com/alexh3422/Anoma_Drama_Llama",
             mainLanguage: "JavaScript, SQL and Handlebars",
             siteName: "Anoma Drama Llama",
