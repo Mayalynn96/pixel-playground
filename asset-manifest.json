@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/pixel-playground/static/css/main.20684d11.css",
-    "main.js": "/pixel-playground/static/js/main.ee16b7f1.js",
+    "main.css": "/pixel-playground/static/css/main.99880b26.css",
+    "main.js": "/pixel-playground/static/js/main.1a59891c.js",
     "static/media/dontWakeUp.gif": "/pixel-playground/static/media/dontWakeUp.f2cd2f66d7749db54ffb.gif",
     "static/media/anomaDramaLlama.gif": "/pixel-playground/static/media/anomaDramaLlama.5499e5fc89dfdad0a9a5.gif",
     "static/media/GamerPad.gif": "/pixel-playground/static/media/GamerPad.8f91d9fb57208f781477.gif",
     "static/media/altPopRock.png": "/pixel-playground/static/media/altPopRock.a2081561ab04515ad1fc.png",
     "static/media/weatherHereAndThere.gif": "/pixel-playground/static/media/weatherHereAndThere.1f67ab9fc8f64e68e8c7.gif",
-    "static/media/laptop.png": "/pixel-playground/static/media/laptop.64a6ad4cfa29502f884e.png",
-    "static/media/laptopWithPicture.png": "/pixel-playground/static/media/laptopWithPicture.d192298c841858e8838f.png",
     "static/media/weatherHereAndThere.png": "/pixel-playground/static/media/weatherHereAndThere.5f652dfe38717e80921e.png",
     "static/media/theHangmanGame.gif": "/pixel-playground/static/media/theHangmanGame.a699ebb838e70b5c2c54.gif",
     "static/media/lifeIsShort.gif": "/pixel-playground/static/media/lifeIsShort.c4915469fa4b2e0f7b80.gif",
     "static/media/altPopRock.gif": "/pixel-playground/static/media/altPopRock.9ad8771a4cb830ff42f9.gif",
-    "static/media/MayaLynnCohenResume2023.pdf": "/pixel-playground/static/media/MayaLynnCohenResume2023.236347ca3b36e7f840c3.pdf",
+    "static/media/ProfilePicture.jpg": "/pixel-playground/static/media/ProfilePicture.6a28cbac5a7926e92b3c.jpg",
+    "static/media/MayaLynnCohenResume2023.pdf": "/pixel-playground/static/media/MayaLynnCohenResume2023.80b26d250417d273560e.pdf",
     "static/media/web.png": "/pixel-playground/static/media/web.0ca968db3eb69ba3816d.png",
     "static/media/github.png": "/pixel-playground/static/media/github.206f325495739094b579.png",
     "index.html": "/pixel-playground/index.html",
-    "main.20684d11.css.map": "/pixel-playground/static/css/main.20684d11.css.map",
-    "main.ee16b7f1.js.map": "/pixel-playground/static/js/main.ee16b7f1.js.map"
+    "main.99880b26.css.map": "/pixel-playground/static/css/main.99880b26.css.map",
+    "main.1a59891c.js.map": "/pixel-playground/static/js/main.1a59891c.js.map"
   },
   "entrypoints": [
-    "static/css/main.20684d11.css",
-    "static/js/main.ee16b7f1.js"
+    "static/css/main.99880b26.css",
+    "static/js/main.1a59891c.js"
   ]
 }
