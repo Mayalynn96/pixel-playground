@@ -10,10 +10,10 @@ body {
     background-image: linear-gradient(to bottom, #091f2a, #0f3243);
     color: #fc9ec0;
     font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
 }
 
 main {
-    padding: 20px;
     background-color: #fdc8e2;
     color: #602238;
     height: 75vh;
@@ -23,7 +23,7 @@ main {
     overflow-x: hidden;
     overflow-y: auto;
     -ms-overflow-style: none;
-    padding: 50px;
+    padding: 10px;
 }
 
 /* width */

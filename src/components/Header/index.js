@@ -41,7 +41,6 @@ const Header = (props) => {
     <header className="header">
         <div>
             <h1>Pixel Playground</h1>
-            <h2>By Maya Lynn Cohen</h2>
         </div>
         <div className='navBar'>
             <h3 className={tabClass.aboutMe} id="aboutMe" onClick={handleTabChange}>About Me</h3>
